@@ -10,6 +10,8 @@ import random
 import numpy as np
 from pathlib import Path
 
+# Download the model from 'https://drive.google.com/file/d/1yt1-zOy7oAb04hsCbWGL__BM8cV1rhRI/view?usp=share_link' and place it in model folder
+
 model = load_model('config\custom.cfg','model\hfrs.pth')
 
 kernel = np.array([[0, -1, 0],
